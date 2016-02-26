@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/help1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Help"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/help2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press Album Art Button with Android Logo Image to give Voice Command"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/help3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Following are the voice commands:\n
+play -> plays current songs\n
+play &apos;song-name&apos; -> plays specified song\n
+play &apos;song-no&apos; -> plays song by specified no\n
+next -> plays next song\n
+previous -> plays previoys song\n
+shuffle on -> turns shuffle on\n
+shuffle off -> turns shuffle off\n
+repeat on -> turns repeat on\n
+repeat off -> turns repeat off\n"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+    
+</LinearLayout>
